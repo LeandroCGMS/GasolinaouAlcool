@@ -92,5 +92,23 @@
             android:textAlignment="center"
             android:textColor="@color/colorPrimary"
             android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/botaoVerificarId"
+            android:layout_toLeftOf="@+id/precoGasId"
+            android:layout_toStartOf="@+id/precoGasId"
+            android:text="R$" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/botaoVerificarId"
+            android:layout_toLeftOf="@+id/precoAlcoolId"
+            android:layout_toStartOf="@+id/precoAlcoolId"
+            android:text="R$" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
