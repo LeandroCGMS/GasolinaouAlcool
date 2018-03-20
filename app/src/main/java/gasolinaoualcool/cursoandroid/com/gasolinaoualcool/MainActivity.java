@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private EditText precoAlcool;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 try{
                     menu();
                 } catch(Exception e){
+                    Toast.makeText(getApplicationContext(),"Erro, verifique se um dos campos está vazio.",Toast.LENGTH_SHORT).show();
                     textoResultado.setText("Erro, verifique se um dos campos está vazio.");
                 }
 
