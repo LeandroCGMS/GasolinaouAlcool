@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 try{
                     menu();
-                } catch(Exception e){
+                } catch(Exception e){ // adição do Toast
                     Toast.makeText(getApplicationContext(),"Erro, verifique se um dos campos está vazio.",Toast.LENGTH_SHORT).show();
                     textoResultado.setText("Erro, verifique se um dos campos está vazio.");
                 }
